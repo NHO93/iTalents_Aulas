@@ -1,0 +1,32 @@
+body{ 
+    background-color: rgb(161, 158, 155);
+}
+.titulo{
+    color:black;
+}
+button{
+    background-color: blue;
+    color: white;
+    padding: 10px;
+    border: none;
+    width: 50%;
+    height: 50px;
+    cursor: pointer;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px black;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: Arial, sans-serif;
+    transition: 0.5s;
+
+}
+button:hover{
+    background-color: darkblue;
+}
