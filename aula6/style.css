@@ -1,0 +1,51 @@
+body{
+    background-color: rgb(51, 144, 144);
+    margin: 0%;
+}
+
+#total{
+    position: absolute;
+    display: none;
+    margin: 0%;
+    padding: 0%;
+    top: 0%;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+#total img{
+
+    width: auto;
+    height: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+h1{
+    color: rgb(224, 224, 241);
+    text-align: center;
+}
+
+.card{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    width: 30%;
+    margin: 1%;
+    background-color: rgb(201, 196, 196);
+}
+
+.card img{
+    width: 100%;
+}
+.card:hover{
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.container{
+    display: flex;
+}
+
+.containerCard{
+    padding: 2px 16px;
+}
